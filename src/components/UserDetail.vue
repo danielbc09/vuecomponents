@@ -5,6 +5,7 @@
         <p>User name: {{ myName }}</p>
         <p>User name reversed {{ switchName() }}</p>
         <button @click="resetName">Rest Name</button>
+        <button @click="resetFn()">Rest Name</button>
     </div>
 </template>
 
@@ -14,7 +15,8 @@
             myName: {
                 type:String,
                 required: true,
-            }
+            },
+            resetFn : Function,
         },
         methods:{
             switchName(){
