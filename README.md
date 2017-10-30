@@ -1,6 +1,6 @@
 # components
 
-> Components in Vuejs
+> Advance Components in Vue js 2
 
 ## Build Setup
 
