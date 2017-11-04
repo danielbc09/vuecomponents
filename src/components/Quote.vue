@@ -1,4 +1,3 @@
-
 <template>
   <div class="col-sm-6 col-med-4 col-lg-3">
     <div class="panel panel-default">
