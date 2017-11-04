@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-xs-12">
         <button @click="selectedComponent= 'appQuote'">Quote</button>
-        <button @click="selectedComponent= 'appAuthor'">Athor</button>
+        <button @click="selectedComponent= 'appAuthor'">Author</button>
         <button @click="selectedComponent= 'appNew'">New</button>
         <hr>
         <p>{{ selectedComponent }}</p>
